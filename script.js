@@ -48,8 +48,8 @@ function init(){
 function onResizeWindow() {
 	canvas.style.width = window.innerWidth + "px";
 	canvas.style.height = window.innerHeight + "px";
-	canvas.width = window.innerWidth / window.devicePixelRatio;
-	canvas.height = window.innerHeight / window.devicePixelRatio;
+	canvas.width =  window.innerWidth / 2 * window.devicePixelRatio;
+	canvas.height = window.innerHeight / 2 * window.devicePixelRatio;
 	maxDist = canvas.width > canvas.height ? canvas.width : canvas.height;
 	maxDist = 300;
 	setLines();
