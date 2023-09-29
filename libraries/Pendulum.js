@@ -4,8 +4,8 @@ function clampAndDamp(value, clamp, damp) {
 
 class Pendulum {
   static gravity = 0.1;
-  static damp = 0.83;
-  static clamp = 0.008;
+  static damp = 0.6;
+  static clamp = 0.0086;
 
   static calculate(p1, p2) {
     const g = Pendulum.gravity;
