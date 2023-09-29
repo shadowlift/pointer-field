@@ -1,6 +1,6 @@
 {
 	"contentrating" : "Everyone",
-	"description" : "2 Computers playing Pong",
+	"description" : "Made using the p5js library, this calming double pendulum is fun and interesting to watch.",
 	"file" : "index.html",
 	"general" : 
 	{
@@ -11,13 +11,16 @@
 				"order" : 0,
 				"text" : "ui_browse_properties_scheme_color",
 				"type" : "color",
-				"value" : "1 0.3 0.3"
+				"value" : "0 0 0"
 			}
 		}
 	},
-	"preview" : "preview.png",
-	"tags" : [ "Game" ],
-	"title" : "Infinite Pong",
-	"type" : "web",
-	"visibility" : "public"
+	"preview" : "preview.gif",
+	"tags" : [ "Abstract" ],
+	"title" : "Double Pendulum",
+	"type" : "Web",
+	"version" : 1,
+	"visibility" : "public",
+	"workshopid" : "2890931225",
+	"workshopurl" : "steam://url/CommunityFilePage/2890931225"
 }
